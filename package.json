@@ -1,0 +1,23 @@
+{
+  "name": "bg-atom-test",
+  "main": "./lib/bg-atom-test",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "repository": "https://github.com/atom/bg-atom-test",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "cytoscape": "^3.11.0",
+    "cytoscape-cola": "^2.3.0",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "cytoscape-fcose": "^1.2.0",
+    "glob": "^7.1.5",
+    "json5": "^2.1.1",
+    "lodash": "^4.17.15",
+    "redom": "^3.24.1",
+    "sprintf-js": "^1.1.2"
+  }
+}

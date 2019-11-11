@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle bg-atom-test",
+        "command": "bg-atom-test:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "bg-atom-test",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "bg-atom-test:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
