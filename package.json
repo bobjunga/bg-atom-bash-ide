@@ -1,15 +1,16 @@
 {
-  "name": "bg-atom-test",
-  "main": "./lib/bg-atom-test",
+  "name": "bg-sp-graphWindow",
+  "main": "./lib/bg-sp-graphWindow",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
-  "repository": "https://github.com/atom/bg-atom-test",
+  "repository": "https://github.com/atom/bg-sp-graphWindow",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "bg-redom-ui": "file:../bg-redom-ui",
     "cytoscape": "^3.11.0",
     "cytoscape-cola": "^2.3.0",
     "cytoscape-cose-bilkent": "^4.1.0",

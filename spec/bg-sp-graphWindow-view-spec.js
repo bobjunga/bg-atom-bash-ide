@@ -1,6 +1,6 @@
 'use babel';
 
-import BgAtomTestView from '../lib/bg-atom-test-view';
+import BgAtomTestView from '../lib/bg-sp-graphWindow-view';
 
 describe('BgAtomTestView', () => {
   it('has one valid test', () => {

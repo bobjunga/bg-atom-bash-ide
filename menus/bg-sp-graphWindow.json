@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle bg-atom-test",
-        "command": "bg-atom-test:toggle"
+        "label": "Toggle bg-sp-graphWindow",
+        "command": "bg-sp-graphWindow:toggle"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "bg-atom-test",
+          "label": "bg-sp-graphWindow",
           "submenu": [
             {
               "label": "Toggle",
-              "command": "bg-atom-test:toggle"
+              "command": "bg-sp-graphWindow:toggle"
             }
           ]
         }

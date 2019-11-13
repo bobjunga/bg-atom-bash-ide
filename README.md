@@ -1,5 +1,7 @@
-# bg-atom-test package
+# bg-sp-graphWindow package
 
-A short description of your package.
+This atom package is a companion to the bg-scriptProjectDev project which facilitates writing and maintaining software packages.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+It provides a window that displays the dependency graph of the source code of the project.
+
+![Sample Screenshot](doc/bg-sp-graphWindow-SampleScreenShot.png)
