@@ -2,8 +2,9 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle bg-sp-graphWindow",
-        "command": "bg-sp-graphWindow:toggle"
+        "label": "Open, Re-Open, or Close the Sandbox Console",
+        "description": "Makes it reflect whether a sandbox folder is open in the workspace",
+        "command": "bg-scriptProjectDev:reopenSandboxConsole"
       }
     ]
   },
@@ -12,11 +13,17 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "bg-sp-graphWindow",
+          "label": "bg-scriptProjectDev",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "bg-sp-graphWindow:toggle"
+              "label": "Open, Re-Open, or Close the Sandbox Console",
+              "description": "Makes it reflect whether a sandbox folder is open in the workspace",
+              "command": "bg-scriptProjectDev:reopenSandboxConsole"
+            },
+            {
+              "label": "codeGrep",
+              "description": "Makes grep only in code, as opposed to comments",
+              "command": "bg-scriptProjectDev:codeGrep"
             }
           ]
         }

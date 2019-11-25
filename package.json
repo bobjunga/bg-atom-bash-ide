@@ -19,6 +19,8 @@
     "json5": "^2.1.1",
     "lodash": "^4.17.15",
     "redom": "^3.24.1",
-    "sprintf-js": "^1.1.2"
+    "sprintf-js": "^1.1.2",
+    "xterm": "^4.2.0-vscode1",
+    "xterm-addon-fit": "^0.3.0"
   }
 }
