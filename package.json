@@ -10,6 +10,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "bg-atom-utils": "file:../bg-atom-utils",
     "bg-redom-ui": "file:../bg-redom-ui",
     "cytoscape": "^3.11.0",
     "cytoscape-cola": "^2.3.0",
@@ -18,9 +19,9 @@
     "glob": "^7.1.5",
     "json5": "^2.1.1",
     "lodash": "^4.17.15",
+    "node-pty": "^0.9.0",
     "redom": "^3.24.1",
     "sprintf-js": "^1.1.2",
-    "xterm": "^4.2.0-vscode1",
-    "xterm-addon-fit": "^0.3.0"
+    "xterm": "^4.2.0-vscode1"
   }
 }
