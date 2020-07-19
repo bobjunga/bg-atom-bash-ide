@@ -18,7 +18,7 @@
     "cytoscape-fcose": "^1.2.0",
     "glob": "^7.1.5",
     "json5": "^2.1.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "node-pty": "^0.9.0",
     "redom": "^3.24.1",
     "sprintf-js": "^1.1.2",
