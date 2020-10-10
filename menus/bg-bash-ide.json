@@ -1,0 +1,38 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Open, Re-Open, or Close the Sandbox Console",
+        "description": "Makes it reflect whether a sandbox folder is open in the workspace",
+        "command": "bg-bash-ide:reopenSandboxConsole"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "bg-bash-ide",
+          "submenu": [
+            {
+              "label": "Reset the Sandbox Console",
+              "description": "Makes the console reflect whether a sandbox folder is open in the workspace and reinitializes it if needed",
+              "command": "bg-bash-ide:resetSandboxConsole"
+            },
+            {
+              "label": "Toggle the Sandbox Console",
+              "description": "show or hide the sandbox console",
+              "command": "bg-bash-ide:toggleSandboxConsole"
+            },
+            {
+              "label": "codeGrep",
+              "description": "Makes grep only in code, as opposed to comments",
+              "command": "bg-bash-ide:codeGrep"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

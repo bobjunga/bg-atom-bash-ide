@@ -4,7 +4,7 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.bg-sp-graphWindow {
+.bg-bash-ide {
 }
 
 .atom-cyto {
@@ -32,3 +32,7 @@
 .atom-cyto > iframe {
 	border : none;
 }
+
+// The stylesheet from xterm.js will always be needed.
+@import (less) "../node_modules/xterm/css/xterm.css";
+@import (less) "../node_modules/bg-dom/bg-dom.css";
