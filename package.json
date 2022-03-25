@@ -2,7 +2,7 @@
   "name": "bg-bash-ide",
   "main": "esmToCjsPkgBridge.js",
   "module": "./lib/bg-bash-ide",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom plugin to provide IDE for working with BASH scripts using the bg-lib libraries",
   "keywords": [],
   "repository": "https://github.com/bobjunga/bg-atom-bash-ide",
@@ -13,16 +13,16 @@
   "dependencies": {
     "bg-atom-utils": "^2.2.2",
     "bg-dom": "^2.3.8",
-    "cytoscape": "^3.11.0",
-    "cytoscape-cola": "^2.3.0",
+    "cytoscape": "^3.21.0",
+    "cytoscape-cola": "^2.5.1",
     "cytoscape-cose-bilkent": "^4.1.0",
-    "cytoscape-fcose": "^1.2.0",
+    "cytoscape-fcose": "^1.2.3",
     "esm": "^3.2.25",
-    "glob": "^7.1.5",
-    "json5": "^2.1.1",
-    "lodash": "^4.17.20",
+    "glob": "^7.2.0",
+    "json5": "^2.2.0",
+    "lodash": "^4.17.21",
     "node-pty": "^0.9.0",
     "sprintf-js": "^1.1.2",
-    "xterm": "^4.2.0-vscode1"
+    "xterm": "^4.18.0"
   }
 }
